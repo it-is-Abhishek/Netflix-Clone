@@ -6,7 +6,9 @@
     background-image: url("/Netflix-Clone/assets/images/bg.jpg");
     height:80vh;
     position:relative;
-
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
 }
 .main .box{
     height:80vh;
@@ -15,4 +17,23 @@
     position:absolute;
     top:0;
     background-color:black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    height:62px;
+}
+nav img{
+    color:red;
+    width: 114px;
+    position:relative;
+    z-index:10;
+
+}
+nav button{
+    position:relative;
+    z-index:10;
 }

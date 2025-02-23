@@ -4,16 +4,19 @@
     margin:0;
     font-family: "poppins", sans-serif;
 }
+body{
+    background-color: black;
+}
 .main{
     background-image: url("/Netflix-Clone/assets/images/bg.jpg");
-    height:80vh;
+    height:70vh;
     position:relative;
     background-position: center center;
     background-size: max(1200px,100vw);
     background-repeat: no-repeat;
 }
 .box{
-    height:80vh;
+    height:70vh;
     width:100%;
     opacity:0.44; 
     position:absolute;
@@ -52,18 +55,21 @@ nav button{
     z-index: 2;
     opacity: 1;
     gap: 23px;
+    padding: 23px; 
 }
 
-.hero :nth-child {
+.hero :first-child {
     font-weight: bolder;
-    
+    font-size: 48px;
 }
 
-.hero:nth-child(2){
-    font-weight: 4 00;
+.hero :nth-child(2){
+    font-weight: 400;
     font-size: 24px;
 }
 
 .hero :nth-child(3){
-    font-size
+    font-weight: 400;
+    font-size: 20px;
 }
+

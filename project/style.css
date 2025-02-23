@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
 *{
     padding:0;
     margin:0;
+    font-family: "poppins", sans-serif;
 }
 .main{
     background-image: url("/Netflix-Clone/assets/images/bg.jpg");
@@ -10,13 +12,15 @@
     background-size: max(1200px,100vw);
     background-repeat: no-repeat;
 }
-.main .box{
+.box{
     height:80vh;
     width:100%;
     opacity:0.44; 
     position:absolute;
     top:0;
     background-color:black;
+    z-index: 1;
+    
 }
 nav{
     display: flex;
@@ -27,13 +31,39 @@ nav{
     height:62px;
 }
 nav img{
-    color:red;
     width: 114px;
     position:relative;
-    z-index:10;
+    
 
 }
 nav button{
     position:relative;
-    z-index:10;
+
+}
+.hero {
+    font-family: "Martel-sans", sans-serif;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    z-index: 2;
+    opacity: 1;
+    gap: 23px;
+}
+
+.hero :nth-child {
+    font-weight: bolder;
+    
+}
+
+.hero:nth-child(2){
+    font-weight: 4 00;
+    font-size: 24px;
+}
+
+.hero :nth-child(3){
+    font-size
 }

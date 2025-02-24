@@ -46,7 +46,7 @@ nav button{
 .hero {
     font-family: "Martel-sans", sans-serif;
     position: relative;
-    height: 100%;
+    height: calc(100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,21 +55,29 @@ nav button{
     z-index: 2;
     opacity: 1;
     gap: 23px;
-    padding: 23px; 
+    padding: 0 30px;
+
 }
 
-.hero :first-child {
+.hero> :nth-child(1){
     font-weight: bolder;
     font-size: 48px;
+    text-align: center;
+
 }
 
-.hero :nth-child(2){
+.hero> :nth-child(2){
     font-weight: 400;
     font-size: 24px;
+    text-align: center;
 }
 
-.hero :nth-child(3){
+.hero> :nth-child(3){
     font-weight: 400;
     font-size: 20px;
+    text-align: center;
 }
-
+.line{
+    height: 11px;
+    background-color: gray;
+}

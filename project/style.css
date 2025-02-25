@@ -96,7 +96,9 @@ nav button{
 .btn-red {
     background-color: red;
     color:white;
+    background-color: red;
     padding:3px 24px solid red;
+    color:white;
     font-size: 20px;
     border-radius: 4px;
     font-weight: 400;
@@ -121,4 +123,39 @@ nav button{
     justify-content: center;
     align-items: center;
     gap:3px;
+}
+.first{
+    display:flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.secImg{
+    position:relative;
+     
+}
+.secImg img{
+    width: 29vw;
+    position:relative;
+    z-index: 10;
+
+}
+.secImg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    height:216px;
+}
+
+section.first > div: nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first > div: nth-child(2){
+    font-size: 24px;
+    font-weight: bolder;
 }

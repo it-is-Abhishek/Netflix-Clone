@@ -162,3 +162,14 @@ section.first > div :nth-child(2){
     font-size: 24px;
     font-weight: bolder;
 }
+.faqbox{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 34px;
+}
+.faq{
+    background-color: black;
+    color:white;
+    
+}
